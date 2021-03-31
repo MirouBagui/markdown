@@ -1,0 +1,13 @@
+.markdown {
+    height: 100vh;
+    flex: 1 1 calc(50vw - 4 rem);
+    position: relative;  
+}
+#preview {
+    height: 85vh;
+    border: 1px solid;
+    overflow: auto;
+}
+
+
+@import "~bootstrap/scss/bootstrap";

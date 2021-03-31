@@ -1,0 +1,19 @@
+html {
+    -webkit-box-sizing:border-box;
+            box-sizing:border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.containermark {
+    display: flex;
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+}
+@import "~bootstrap/scss/bootstrap";
