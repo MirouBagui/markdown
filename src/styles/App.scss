@@ -10,7 +10,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 .containermark {
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
     padding-right:0;
     padding-left:0;
     margin-right:auto;

@@ -4,10 +4,10 @@ import { Container, Row, Col, Navbar } from 'react-bootstrap';
 import '../styles/MarkdownInput.scss'
 import Logo from '../styles/img/m-d.svg'
 
-const MarkdownInput = (props) => {
+const MarkdownInput = () => {
     const {setmarkdownResult, markdownResult} = useContext(MarkdownContext);
     const onInputChange = e => {
-        const newValue = e.currentTarget.value
+        const newValue = e.currentTarget.value;
         setmarkdownResult(newValue);
     }
 

@@ -6,7 +6,7 @@ import '../styles/MarkdownOutput.scss'
 let marked = require('marked');
 
 
-const MarkdownOutput = (props) => {
+const MarkdownOutput = () => {
       const {markdownResult} = useContext(MarkdownContext);
       const renderer = marked.setOptions ({
             breaks: true,

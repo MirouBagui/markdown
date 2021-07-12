@@ -4,8 +4,11 @@ import MarkdownInput from './components/MarkdownInput'
 import MarkdownOutput from './components/MarkdownOutput'
 import MarkdownContext from './MarkdownContext'
 import './styles/App.scss'
+
+// thanxs to 
 const placeholder = `# Markdown Previewer
 ## Created by Bagui
+[![Coder photo](https://images.unsplash.com/photo-1564865878688-9a244444042a?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=650&q=80 "Amir")]()
 
 ###### check out my work (https://www.miroubagui.com)
 
@@ -23,13 +26,13 @@ const placeholder = `# Markdown Previewer
 ---
 
 \`\`\`                      
-   <p>Hello world! This is HTML CODE BLOCK.</p>          
+   <p>Hey guys! This is CODE BLOCK.</p>          
 \`\`\`
 
 ---
 
 #### More about the challenge [Build a Markdown Previewer](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer).
-#### See it in action [HERE]().`;
+#### see ya`;
 
 
 const App = () => {
